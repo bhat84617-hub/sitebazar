@@ -1,0 +1,20 @@
+@import './styles/neomorphic.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--bg-color, #e4e9f0);
+  color: var(--text-primary, #4a4a52);
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+::selection {
+  background: #6c63ff;
+  color: #fff;
+}
